@@ -1,0 +1,8 @@
+name: ccfddl
+label: 会议截稿查询 (ccfddl)
+kind: standalone
+version: 0.1.0
+description: >
+  查询计算机领域学术会议（CCF 推荐会议等）的投稿截止时间，数据来自社区维护的 ccfddl/ccf-deadlines，
+  按会议名或领域（人工智能、数据库……）查，统一换算成北京时间并给出剩余时间（不到一天按小时）。只读、无需 key。
+author: InvolutionHell
