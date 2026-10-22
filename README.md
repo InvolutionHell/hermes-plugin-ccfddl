@@ -57,7 +57,7 @@ git clone https://github.com/InvolutionHell/hermes-plugin-ccfddl ~/.hermes/plugi
 hermes plugins enable ccfddl
 ```
 
-`enable` 会通知正在运行的 gateway 现场加载插件，**不用重启**。
+gateway 在运行时，`enable` 会通知它现场加载插件，**不用重启**；gateway 没在运行（或版本较老）时 CLI 会提示 `hermes gateway restart`，照做即可。
 
 依赖：YAML 解析用 Hermes 自带的 `ruamel.yaml`，没有的话退回 `PyYAML`。
 
